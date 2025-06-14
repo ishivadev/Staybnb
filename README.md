@@ -55,55 +55,26 @@ I built Staybnb to explore full-stack web development and implement real-world f
    ```bash
    git clone https://github.com/ishivadev/Staybnb.git
    cd Staybnb
-Install dependencies
-
-npm install
-Set up environment variables
-
-Create a .env file and add:
-
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_KEY=your_api_key
-CLOUDINARY_SECRET=your_api_secret
-DB_URL=your_mongodb_connection_string
-SECRET=session_secret
-Run the app
 
 
-npm start
-The server should run on http://localhost:3000
+## 📁 Folder Structure
 
-📁 Folder Structure
+<pre> ``` Staybnb/ ├── models/ # Mongoose models ├── routes/ # Express route handlers ├── views/ # EJS templates ├── public/ # Static assets (CSS, JS, Images) ├── controllers/ # Route logic separated from routes ├── middleware/ # Custom middleware ├── utils/ # Helpers & configuration ├── app.js # Entry point ├── .env # Environment variables (not committed) ├── package.json ``` </pre>
 
-Staybnb/
-├── models/           # Mongoose models
-├── routes/           # Express route handlers
-├── views/            # EJS templates
-├── public/           # Static assets (CSS, JS, Images)
-├── controllers/      # Route logic separated from routes
-├── middleware/       # Custom middleware
-├── utils/            # Helpers & configuration
-├── app.js            # Entry point
-├── .env              # Environment variables (not committed)
-├── package.json
 
-🧪 Future Improvements
+## 🧪 Future Improvements
 💳 Payment integration with Stripe
-
 🔔 Notifications for reviews or messages
-
 📬 Contact host messaging system
-
 📊 Admin dashboard for listing analytics
-
 📱 Mobile-first redesign
+
 
 🤝 Contributing
 Contributions are welcome! Open issues, suggest features, or fork and submit a PR. Make sure to follow the existing coding style and structure.
 
 📄 License
 This project is open-source and available under the MIT License.
-
 ---
+Let me know if you’d like a version with icons, screenshots, or badges for GitHub stars, issues, and forks!
 
-Let me know if you’d like a version with icons, screenshots, or badges for GitHub stars, issues, an
