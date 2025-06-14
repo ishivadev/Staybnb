@@ -59,15 +59,28 @@ I built Staybnb to explore full-stack web development and implement real-world f
 
 ## 📁 Folder Structure
 
-<pre> ``` Staybnb/ ├── models/ # Mongoose models ├── routes/ # Express route handlers ├── views/ # EJS templates ├── public/ # Static assets (CSS, JS, Images) ├── controllers/ # Route logic separated from routes ├── middleware/ # Custom middleware ├── utils/ # Helpers & configuration ├── app.js # Entry point ├── .env # Environment variables (not committed) ├── package.json ``` </pre>
+```
+Staybnb/
+├── models/           # Mongoose models
+├── routes/           # Express route handlers
+├── views/            # EJS templates
+├── public/           # Static assets (CSS, JS, Images)
+├── controllers/      # Route logic separated from routes
+├── middleware/       # Custom middleware
+├── utils/            # Helpers & configuration
+├── app.js            # Entry point
+├── .env              # Environment variables (not committed)
+├── package.json
+```
+
 
 
 ## 🧪 Future Improvements
-💳 Payment integration with Stripe
-🔔 Notifications for reviews or messages
-📬 Contact host messaging system
-📊 Admin dashboard for listing analytics
-📱 Mobile-first redesign
+- 💳 Payment integration with Stripe
+- 🔔 Notifications for reviews or messages
+- 📬 Contact host messaging system
+- 📊 Admin dashboard for listing analytics
+- 📱 Mobile-first redesign
 
 
 🤝 Contributing
